@@ -5,3 +5,8 @@ from config.settings.dev import *
 DEBUG = True
 
 ENABLE_API_ROOT = True
+
+# to showcase how env variables should be passed to settings file
+# we can also use aws service like Secret manager to store and get secret
+# values at run time
+MY_VAR = os.getenv('MY_VAR', 'demo')
