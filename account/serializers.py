@@ -8,8 +8,6 @@ from rest_framework import serializers
 from rest_framework.authtoken.models import Token
 from rest_framework.reverse import reverse
 
-from account.utils import generate_token, token_expires_at
-
 Customer = get_user_model()
 
 
