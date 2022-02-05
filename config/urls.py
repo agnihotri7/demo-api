@@ -22,6 +22,7 @@ from config.views import index
 urlpatterns = [
     path('', index, name='index'),
     path('admin/', admin.site.urls),
+    path('api/v1/', include(('api.v1.urls', 'api'), namespace='v1')),
 ]
 
 if settings.ENABLE_API_ROOT:
