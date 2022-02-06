@@ -14,7 +14,20 @@ DempApi is a sample project to showcase how we can create REST APIs in Django-RE
 
 ## Installation
 
-See INSTALL.md
+clone the repository
+git clone git@github.com:agnihotri7/demo-api.git
+
+create a virtual env
+virtualenv env -p python3.9
+
+activate env
+source env/bin/activate
+
+install requirements.txt
+pip install -r requirements.txt
+
+run server
+python manage.py runserver
 
 ## Configurations
 
