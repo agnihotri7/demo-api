@@ -9,7 +9,7 @@ ENABLE_API_ROOT = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'tmp/db/db.sqlite3',
+        'NAME': BASE_DIR / 'tmp/db/sqlite3_db',
     }
 }
 
