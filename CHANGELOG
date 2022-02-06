@@ -1,0 +1,14 @@
+v   0.0.0   (2022-02-05)
+========================
+    - Define Project Structure
+    - Add basic settings of project
+    - Add required gitignore files
+    - Add Project Requirements
+
+v   0.0.1   (2022-02-05)
+========================
+    - Add account app
+    - Add policy app
+    - Add required dir like sockets, logs etc
+    - Add rest framework settings
+    - Add required gitignore files
